@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<HBox spacing = "5.0"
+      alignment="center"
+      prefHeight="400" prefWidth="600"
+      xmlns="http://javafx.com/javafx/8.0.171" 
+      xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="ifpr.pgua.eic.sistemaEscola.controllers.JanelaListarProfessores"
+      >
+
+      <VBox prefWidth = "500" alignment="center" spacing="5.0">
+        <ListView fx:id="professores"/>
+
+        <Button id="btVoltar" text="Voltar" prefWidth="100" onAction="#carregaMenuProfessores"/>
+      </VBox>
+</HBox>

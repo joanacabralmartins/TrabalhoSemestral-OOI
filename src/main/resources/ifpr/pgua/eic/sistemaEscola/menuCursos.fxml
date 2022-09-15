@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane id="main" prefHeight="400" prefWidth="700" stylesheets="@../css/estilo.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ifpr.pgua.eic.sistemaEscola.controllers.JanelaMenuCursos">
+
+   <center>
+      <VBox alignment="center" spacing="50">
+        <padding>
+            <Insets topRightBottomLeft="20" />
+        </padding>
+
+        <HBox alignment="center" spacing="40">
+            <padding>
+              <Insets bottom="50.0" left="100.0" right="100.0" top="100.0" />
+            </padding>
+
+            <Button id="btnTexto" onAction="#carregaTelaCadastrarCurso" prefWidth="200" text="Cadastrar Curso">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+      
+            <Button id="btnTexto" onAction="#carregaTelaListarCursos" prefWidth="200" text="Listar Cursos">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+        </HBox>
+
+        <Button id="btVoltar" onAction="#carregaTelaPrincipal" prefWidth="100" text="Voltar" />
+
+      </VBox>
+   </center>
+   
+</BorderPane>

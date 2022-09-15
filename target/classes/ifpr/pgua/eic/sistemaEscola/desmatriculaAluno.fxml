@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="center" spacing="30.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ifpr.pgua.eic.sistemaEscola.controllers.JanelaDesmatricularAluno">
+
+    <VBox spacing="5.0" alignment="center">
+      <Label id="labelMatricula" text="Aluno" />
+      <ChoiceBox fx:id="cbAluno" prefWidth="150.0" />
+
+      <Label id="labelMatricula" text="Curso" />
+      <ChoiceBox fx:id="cbCurso" prefWidth="150.0" />
+    </VBox>
+
+    <HBox id="HBoxMatricula" spacing="5.0" alignment="center">
+      <Button onAction="#desmatricular" text="Confirmar" />
+      <Button id="btVoltar" onAction="#carregaMenuAlunos" text="Voltar" />
+      <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+    </HBox>
+
+</VBox>

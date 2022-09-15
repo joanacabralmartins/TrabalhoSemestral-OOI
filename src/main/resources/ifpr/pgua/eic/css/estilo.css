@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+#main {
+  -fx-background-color: linear-gradient(to bottom left, #40a3aa, #6a5acd);
+}
+
+#HBoxCadastro,
+#HBoxMatricula {
+  -fx-padding: 6 0 0 0;
+}
+
+#btnTexto {
+  -fx-font-size: 14.5px;
+  -fx-text-fill: rgb(83, 82, 82);
+}
+
+#btVoltar {
+  -fx-font-size: 12px;
+  -fx-text-fill: rgb(34, 34, 34);
+}
+
+#labelMatricula {
+  -fx-font-weight: 800;
+  -fx-font-size: 14px;
+}
+
+.label {
+  -fx-font-family: 'Comfortaa', cursive;
+  -fx-text-fill: 'white';
+  -fx-font-weight: 600;
+  -fx-font-size: 13px;
+}
+
+.list-cell:filled:hover {
+  -fx-background-color: #0093ff;
+  -fx-text-fill: white;
+}
+
+.choice-box {
+  -fx-mark-color: orange;
+}
+
+.choice-box .context-menu {
+  -fx-background-color: rgb(83, 82, 82);
+}
+
+.choice-box > .label {
+  -fx-text-fill: black;
+}
+
+.button {
+  -fx-background-radius: 30;
+}
